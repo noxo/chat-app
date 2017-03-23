@@ -17,6 +17,7 @@ Simple native android chat application with Node.js backend service, to test som
 * login with "trump", password "password1", or "obama", password "password1"
 * by default app connect to 10.0.2.2:3000, which points to localhost:3000 in Android virtual device (this is where Node.js is running by default)
 
-
-![Alt text](images/Capture1.png)
+<p align="center">
+  <img src="images/Capture1.png" width="450"/>
+</p>
 
