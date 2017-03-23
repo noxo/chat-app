@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingTop="2dp"  android:paddingBottom="2dp"
+    android:paddingLeft="2dp"  android:paddingRight="2dp">
+    <com.github.siyamed.shapeimageview.CircularImageView
+        android:id="@+id/avatarImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/trump"
+        app:siBorderWidth="6dp"
+        app:siBorderColor="#cccccc"/>
+    <TextView
+        android:id="@+id/chatContentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dip"
+        android:background="@drawable/chat_bubble"
+        android:paddingLeft="30dip"
+        android:text="Hello bubbles! fwef ewfew few fe fwe ew few  few few few few fe w few few f fewfewffewfewfew f wee feew efw wef few few few we "
+        android:textColor="@android:color/primary_text_light" />
+</LinearLayout>
